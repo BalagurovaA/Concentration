@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     
     @IBAction func newRoundOfGame(_ sender: UIButton) {
         flipCount = 0
+        emojiChoices = ["👻", "🎃", "🎭", "🦑", "🦇", "🌚", "🧛🏻‍♀️"]
         emoji = [:]
         game = Concentration(numberPairsOfCards: (cardButtons.count + 1) / 2)
 
